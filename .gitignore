@@ -1,0 +1,11 @@
+# Credentials and device files: never commit
+secrets.py
+*.der
+.env
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+__marimo__/
+.DS_Store
