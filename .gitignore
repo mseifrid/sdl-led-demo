@@ -9,3 +9,6 @@ __pycache__/
 *.pyc
 __marimo__/
 .DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
