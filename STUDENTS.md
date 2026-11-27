@@ -48,13 +48,22 @@ remove the password from `config.py` first.
 
 ## 4. Run the notebook
 
+The notebook is a [marimo](https://marimo.io) notebook, `sdl_class_demo.py`:
+
 ```bash
-jupyter notebook sdl_class_demo.ipynb
+marimo edit sdl_class_demo.py
 ```
 
 Put the notebook and Wokwi **side by side in two browser windows** (not two tabs of one
-window), then run the cells one at a time (Shift + Enter). The LED ring changes color for
-every experiment. Wokwi nearly pauses when it's hidden behind another tab.
+window). Steps 0 to 5 run on their own when the notebook opens; if Step 2 times out because
+Wokwi wasn't ready yet, click ▶ on that cell to run it again. The self-driving runs
+(Step 7) start when you click their buttons. The LED ring changes color for every
+experiment. Wokwi nearly pauses when it's hidden behind another tab.
+
+**Backup only:** if marimo won't run on your laptop, the Jupyter copy
+`sdl_class_demo.ipynb` does the same demo (`jupyter notebook sdl_class_demo.ipynb`, then run
+the cells one at a time with Shift + Enter). It isn't kept in sync with the marimo
+notebook, so use it only if you have to.
 
 ## If something goes wrong
 

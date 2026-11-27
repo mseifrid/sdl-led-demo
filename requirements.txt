@@ -1,4 +1,5 @@
-jupyter
+marimo
+jupyter  # only for the backup sdl_class_demo.ipynb
 matplotlib
 numpy
 paho-mqtt>=2.0
